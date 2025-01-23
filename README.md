@@ -22,17 +22,17 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/fraud-detection-system.git
-
+```
 2. Navigate into the project directory:
 
 ```bash
 cd fraud-detection-system
-
+```
 3. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Data
 The dataset used for this project is the Credit Card Fraud Detection dataset from Kaggle. You can download it from here. Place the dataset in the data/ directory.
 
