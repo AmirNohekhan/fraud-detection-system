@@ -35,20 +35,25 @@ cd fraud-detection-system
 pip install -r requirements.txt
 ```
 ## Data
-The dataset used for this project is the Credit Card Fraud Detection dataset from Kaggle. You can download it from here. Place the dataset in the data/ directory.
+The dataset used for this project will be downloaded using a Jupyter notebook. This notebook will be developed later and will automatically fetch the Credit Card Fraud Detection dataset from Kaggle. The data will be saved in the data/ directory.
 
 ## Usage
-1. To run the data analysis notebook:
+1. To download the dataset:
+```bash
+jupyter notebook notebooks/data_download.ipynb
+```
+
+2. To run the data analysis notebook:
 
 ```bash
 jupyter notebook notebooks/data_analysis.ipynb
 ```
-2. To train the model:
+3. To train the model:
 
 ```bash
 python src/model.py
 ```
-3. To evaluate the model:
+4. To evaluate the model:
 
 ```bash
 python src/evaluation.py
@@ -59,7 +64,7 @@ The repository structure is as follows:
 ```perl
 fraud-detection-system/
 ├── data/                   # Raw and processed datasets
-├── notebooks/              # Jupyter Notebooks for data analysis, preprocessing, and modeling
+├── notebooks/              # Jupyter Notebooks for data download, analysis, preprocessing, and modeling
 ├── src/                    # Python scripts for data preprocessing, modeling, etc.
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project overview and instructions
