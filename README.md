@@ -63,7 +63,7 @@ fraud-detection-system/
 ├── src/                    # Python scripts for data preprocessing, modeling, etc.
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project overview and instructions
-└── LICENSE                 # Project license (e.g., MIT)
+└── LICENSE                 # MIT license 
 ```
 
 ## Model Evaluation
