@@ -42,17 +42,17 @@ The dataset used for this project is the Credit Card Fraud Detection dataset fro
 
 ```bash
 jupyter notebook notebooks/data_analysis.ipynb
-
+```
 2. To train the model:
 
 ```bash
 python src/model.py
-
+```
 3. To evaluate the model:
 
 ```bash
 python src/evaluation.py
-
+```
 ## Project Structure
 The repository structure is as follows:
 
