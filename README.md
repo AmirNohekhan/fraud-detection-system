@@ -22,39 +22,29 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/fraud-detection-system.git
-Navigate into the project directory:
+2. Navigate into the project directory:
 
-bash
-Copy
-Edit
+```bash
 cd fraud-detection-system
-Install the required dependencies:
+3. Install the required dependencies:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-Data
+## Data
 The dataset used for this project is the Credit Card Fraud Detection dataset from Kaggle. You can download it from here. Place the dataset in the data/ directory.
 
-Usage
-To run the data analysis notebook:
+## Usage
+1. To run the data analysis notebook:
 
-bash
-Copy
-Edit
+```bash
 jupyter notebook notebooks/data_analysis.ipynb
-To train the model:
+2. To train the model:
 
-bash
-Copy
-Edit
+```bash
 python src/model.py
-To evaluate the model:
+3. To evaluate the model:
 
-bash
-Copy
-Edit
+```bash
 python src/evaluation.py
 Project Structure
 The repository structure is as follows:
